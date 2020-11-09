@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane layoutX="47.0" layoutY="91.0" prefHeight="247.0" prefWidth="592.0" style="-fx-border-color: black; -fx-background-color: #5cd1cf;">
+         <children>
+            <TextField fx:id="txtemail" layoutX="94.0" layoutY="39.0" prefHeight="23.0" prefWidth="335.0" promptText="Enter your Email id!!" style="-fx-border-color: black;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtotp" layoutX="175.0" layoutY="89.0" promptText="Enter OTP!!" style="-fx-border-color: black;" />
+            <Button fx:id="butverify" layoutX="372.0" layoutY="89.0" mnemonicParsing="false" onAction="#handler" style="-fx-border-color: black;" text="Verify" />
+            <Label fx:id="labstatus" alignment="CENTER" layoutX="173.0" layoutY="185.0" prefHeight="17.0" prefWidth="246.0" text="status" textAlignment="CENTER" textFill="#3d22a8" visible="false">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="hide" layoutX="70.0" layoutY="124.0" text="hide" visible="false" />
+            <Button fx:id="butsend" layoutX="454.0" layoutY="39.0" mnemonicParsing="false" onAction="#handler" style="-fx-border-color: black;" text="Send" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="200.0" layoutY="35.0" text="Email Verification System" textFill="#62bc39">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="butreset" layoutX="578.0" layoutY="40.0" mnemonicParsing="false" onAction="#handler" text="Reset" />
+   </children>
+</AnchorPane>

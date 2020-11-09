@@ -60,7 +60,7 @@ public class MainController {
                 try
                 {
                 Transport transport = session.getTransport("smtp");
-                transport.connect("smtp.gmail.com","ad0084763@gmail.com","Feeble@2000");
+                transport.connect("smtp.gmail.com","ad0084763@gmail.com","Enter Your password");	// enter your email id and password
                 transport.sendMessage(message, message.getAllRecipients());
                 transport.close();
                               

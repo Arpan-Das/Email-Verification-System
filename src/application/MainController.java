@@ -60,14 +60,14 @@ public class MainController {
                 try
                 {
                 Transport transport = session.getTransport("smtp");
-                transport.connect("smtp.gmail.com","ad0084763@gmail.com","Enter Your password");	// enter your email id and password
+                transport.connect("smtp.gmail.com","ad0084763@gmail.com","Feeble@2000");	// enter your email id and password
                 transport.sendMessage(message, message.getAllRecipients());
                 transport.close();
                               
                 JOptionPane.showMessageDialog(null,"OTP has send to your Email id"); 
                 }catch(Exception e)
                 {
-                    JOptionPane.showMessageDialog(null,"Please check your internet connection");
+                    JOptionPane.showMessageDialog(null,e);
                 }              
             
         } catch (Exception e) {

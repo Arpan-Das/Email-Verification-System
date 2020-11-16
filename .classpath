@@ -8,7 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javafx"/>
-	<classpathentry kind="lib" path="C:/JAVA_my-JAR/activation.jar"/>
-	<classpathentry kind="lib" path="C:/JAVA_my-JAR/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/TAAAN/eclipse-workspace/Email Verification System/Resource/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/TAAAN/eclipse-workspace/Email Verification System/Resource/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
